@@ -1,0 +1,47 @@
+package OrdenaStringPipe;
+
+public class Main {
+	
+	public static void main(String[]args){
+		String valores="1,2,10,6,1,7,22|45,5,3,4,7,1,0,9|22,56,93,11,9,21,105,10|90,3,2,21,7,2,8,0,-1,42";
+		
+		prueba e=new prueba(valores.toString(), '|');
+		//System.out.println("Extension = " + e.extencion());
+        System.out.println("Arreglo 1= " + e.Arreglo1().toString());
+        System.out.println("Arreglo 2= " + e.Arreglo2());
+        System.out.println("Arreglo 3= " + e.Arreglo3());
+        System.out.println("Arreglo 4= " + e.Arreglo4());
+        //System.out.println("Path = " + e.path());
+        e.separar(e.Arreglo1().toString());
+        //e.imprimir();
+        String a=e.separar(e.Arreglo1().toString());
+        System.out.println(a);
+        for(int i=0;i<a.length();i++){
+        	System.out.println(a.charAt(i));
+        }
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//String valores="1,2,10,6,1,7,22|45,5,3,4,7,1,0,9|22,56,93,11,9,21,105,10|90,3,2,21,7,2,8,0,-1,42";

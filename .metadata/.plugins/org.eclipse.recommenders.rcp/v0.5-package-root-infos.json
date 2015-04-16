@@ -1,0 +1,171 @@
+[
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "7a74993f7762261324f595ffa99f9228efcafc89",
+    "jarFileModificationDate": "2012-09-03T12:44:16.373-05:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\jsse.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "5f4f3f5e967477a98b4c7e91f3316e668f0a1988",
+    "jarFileModificationDate": "2012-09-03T12:44:00.944-05:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\ext\\zipfs.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "c388cbebec21de21a19c0a85c5ea94e2d3afaef5",
+    "jarFileModificationDate": "2012-09-03T12:44:16.482-05:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\ext\\localedata.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "c3028e9353a7d234fae6729223f1630ea2b3f870",
+    "jarFileModificationDate": "2012-09-03T12:44:00.898-05:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\ext\\dnsns.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f56383db77ae9502e6ca617e57d55ee73d631c46",
+    "jarFileModificationDate": "2012-09-03T12:44:00.913-05:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\ext\\sunec.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a31853a3c486908d5d1b68c3be8cf31c23f86bdf",
+    "jarFileModificationDate": "2012-09-03T12:44:01.334-05:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\jce.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "4838808e80df811cfb2bf7faf361b3cbc16f9f81",
+    "jarFileModificationDate": "2011-08-30T23:05:02-05:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\ext\\dns_sd.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "1e0c69323f8bda404704b47ff5166415589e9ea7",
+    "jarFileModificationDate": "2012-09-03T12:44:15.218-05:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\charsets.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "99205532ad01ab8e5e50a8773b1c8761d5870786",
+    "jarFileModificationDate": "2012-09-03T12:44:00.944-05:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\ext\\sunmscapi.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "9152e77a1b9928a94eec26c93664520d818550ee",
+    "jarFileModificationDate": "2012-09-03T12:44:00.944-05:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\ext\\sunpkcs11.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "4cf29545fc6f2c972f0d990af900b62927423d48",
+    "jarFileModificationDate": "2012-09-03T12:44:15.016-05:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\rt.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "37bf2dbcada53b4c258f251ef347cb77519c1730",
+    "jarFileModificationDate": "2012-09-03T12:44:01.475-05:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\resources.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a717cf29020f95db12fd1d37005353f92180c674",
+    "jarFileModificationDate": "2012-09-03T12:44:00.929-05:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\ext\\sunjce_provider.jar",
+    "javaRuntime": true
+  }
+]

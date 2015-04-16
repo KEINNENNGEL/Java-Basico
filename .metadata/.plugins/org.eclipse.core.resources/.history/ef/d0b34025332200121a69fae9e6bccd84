@@ -1,0 +1,50 @@
+package OrdenaStringPipe;
+
+import java.util.ArrayList;
+
+public class OrdenaStringPipe{
+
+	ArrayList listaLetras = new ArrayList();//declaracion de arraylist para guradar las letras
+	ArrayList listaNumeros = new ArrayList();
+	
+	public static void main3(String args[]){
+		for(int i=1; i<=4; i++){
+			for(int j=1;j<=4; j++){
+				if(!(j<=i))continue;
+				System.out.print("("+i+" , "+j+") ");
+				}
+			System.out.println();
+			}
+		System.out.println("Ciclos terminados ");
+		}
+	
+	public String separar(String cadena){//metodo separar que recibe un parametro de tipo cadena
+		
+		char elementos[]=cadena.toCharArray();//declaramos un arreglo llamado elementos que convertira la cadena en char
+		
+		for(int indice = 0;indice<cadena.length();indice++){//recorremos el arreglo
+		if(Character.isLetter(elementos[indice])){//comprobamos que la posicion actual sea una letra
+			
+			listaLetras.add(elementos[indice]);//agregamos la letra a la lista
+		}else{
+			
+			listaNumeros.add(elementos[indice]);//agregamos los numeros a lista
+		}
+	}
+	return cadena;
+}
+	public String otro(String cadena){
+		
+		char elementos[]=cadena.toCharArray();
+		
+		for(int i=0;i<cadena.length();i++){
+			if(Character.isLetter(elementos[i])){
+				continue;
+			}else{
+				listaNumeros.add(elementos[i]);
+			}
+			
+		}
+		return cadena;
+	}
+}

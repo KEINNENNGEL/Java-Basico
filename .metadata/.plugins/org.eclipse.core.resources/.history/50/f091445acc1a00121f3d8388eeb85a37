@@ -1,0 +1,22 @@
+package TiposdeOrdenamientos;
+
+public class Main {
+	
+	public static void main(String[]args){
+		
+		int arreglo[]={5,3,8,1,0,8,1,7,5,8,9,4};
+		
+		OrdBurbuja bur=new OrdBurbuja();
+		bur.burbuja(arreglo);
+		
+		OrdenacionXInsercion ins=new OrdenacionXInsercion();
+		ins.Insercion(arreglo);
+		
+		OrdSeleccion sel=new OrdSeleccion();
+		sel.Seleccion(arreglo);
+		
+		
+		
+	}
+
+}

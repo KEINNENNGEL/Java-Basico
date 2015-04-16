@@ -1,0 +1,29 @@
+package TiposdeOrdenamientos;
+
+public class Main {
+	
+	public static void main(String[]args){
+		
+		int arreglo[]={5,3,8,1,0,8,1,7,5,8,9,4};
+		
+		OrdBurbuja bur=new OrdBurbuja();
+		int datos[]=bur.burbuja(arreglo);
+		System.out.println(datos);
+		
+		OrdenacionXInsercion ins=new OrdenacionXInsercion();
+		ins.Insercion(arreglo);
+		
+		OrdSeleccion sel=new OrdSeleccion();
+		sel.Seleccion(arreglo);
+		
+		OrdSell sell=new OrdSell();
+		sell.shellSort(arreglo);
+		
+		MergeSort merg=new MergeSort();
+		merg.mergesort(arreglo, 5, 5);
+		
+		
+		
+	}
+
+}

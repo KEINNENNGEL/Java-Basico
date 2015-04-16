@@ -1,0 +1,14 @@
+package OrdenaStringPipe;
+
+public class Main {
+	
+	public static void main(String[]args){
+		String valores="1,2,10,6,1,7,22|45,5,3,4,7,1,0,9|22,56,93,11,9,21,105,10|90,3,2,21,7,2,8,0,-1,42";
+		
+		prueba e=new prueba(valores, '|');
+		System.out.println("Extension = " + e.extencion());
+        System.out.println("Nombre de Fichero = " + e.NombreFichero());
+        System.out.println("Path = " + e.path());
+	}
+
+}

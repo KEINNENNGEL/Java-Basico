@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,view,org.eclipse.jdt.ui,3.4.2.r342_v20090107-0800,org.eclipse.jdt.ui.PackageExplorer,1355283982027
+deactivated,workbench,org.eclipse.ui.workbench,3.4.2.M20090127-1700,,1355283986156
+activated,workbench,org.eclipse.ui.workbench,3.4.2.M20090127-1700,,1355284006133
+opened,editor,org.eclipse.jdt.ui,3.4.2.r342_v20090107-0800,org.eclipse.jdt.ui.CompilationUnitEditor,1355284008436
+activated,editor,org.eclipse.jdt.ui,3.4.2.r342_v20090107-0800,org.eclipse.jdt.ui.CompilationUnitEditor,1355284008720
+executed,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.text.contentAssist.proposals,1355284026709
+executed,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.text.contentAssist.proposals,1355284034496
+executed,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.text.contentAssist.proposals,1355284048557
+executed,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.text.contentAssist.proposals,1355284054133
+executed,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.paste,1355284087464
+executed,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.undo,1355284105974
+executed,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.text.contentAssist.proposals,1355284111452
+executed,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.text.contentAssist.proposals,1355284117602
+executed,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.text.contentAssist.proposals,1355284120669
+executed,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.text.contentAssist.proposals,1355284132002
+deactivated,workbench,org.eclipse.ui.workbench,3.4.2.M20090127-1700,,1355284135712
+no handler,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.paste,1355284136107
+activated,workbench,org.eclipse.ui.workbench,3.4.2.M20090127-1700,,1355284138213
+executed,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.paste,1355284140853
+deactivated,workbench,org.eclipse.ui.workbench,3.4.2.M20090127-1700,,1355284188720
+activated,workbench,org.eclipse.ui.workbench,3.4.2.M20090127-1700,,1355284202004
+executed,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.text.contentAssist.proposals,1355284217722
+executed,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.text.contentAssist.proposals,1355284221085
+executed,command,,,AUTOGEN:::org.eclipse.jdt.internal.ui.CompilationUnitEditor.ruler.actions/org.eclipse.jdt.internal.ui.javaeditor.JavaSelectRulerAction,1355284232734
+executed,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.text.contentAssist.proposals,1355284388422

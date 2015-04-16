@@ -1,0 +1,67 @@
+{
+  "C:\\Program Files\\Java\\jre7\\lib\\rt.jar": {
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\rt.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027C:\\Program Files\\Java\\jre7\\lib\\rt.jar\u0027. Neither fingerprint \u00274cf29545fc6f2c972f0d990af900b62927423d48\u0027 nor symbolic name \u0027jre\u0027 are known."
+  },
+  "C:\\Users\\KEINN-ENNGEL\\workspace\\Arboles\\src": {
+    "location": "C:\\Users\\KEINN-ENNGEL\\workspace\\Arboles\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\KEINN-ENNGEL\\workspace\\Arboles\\src\u0027. Skipped."
+  },
+  "C:\\Users\\KEINN-ENNGEL\\workspace\\pruebaArbolBinario\\src": {
+    "location": "C:\\Users\\KEINN-ENNGEL\\workspace\\pruebaArbolBinario\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\KEINN-ENNGEL\\workspace\\pruebaArbolBinario\\src\u0027. Skipped."
+  },
+  "C:\\Users\\KEINN-ENNGEL\\workspace\\ArrayObject\\src": {
+    "location": "C:\\Users\\KEINN-ENNGEL\\workspace\\ArrayObject\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\KEINN-ENNGEL\\workspace\\ArrayObject\\src\u0027. Skipped."
+  },
+  "C:\\Users\\KEINN-ENNGEL\\workspace\\Estacionamiento\\src": {
+    "location": "C:\\Users\\KEINN-ENNGEL\\workspace\\Estacionamiento\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\KEINN-ENNGEL\\workspace\\Estacionamiento\\src\u0027. Skipped."
+  },
+  "C:\\Users\\KEINN-ENNGEL\\workspace\\OrdenarNum\\src": {
+    "location": "C:\\Users\\KEINN-ENNGEL\\workspace\\OrdenarNum\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\KEINN-ENNGEL\\workspace\\OrdenarNum\\src\u0027. Skipped."
+  },
+  "C:\\Users\\KEINN-ENNGEL\\workspace\\Examen1\\src": {
+    "location": "C:\\Users\\KEINN-ENNGEL\\workspace\\Examen1\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\KEINN-ENNGEL\\workspace\\Examen1\\src\u0027. Skipped."
+  },
+  "C:\\Users\\KEINN-ENNGEL\\workspace\\Pila\\src": {
+    "location": "C:\\Users\\KEINN-ENNGEL\\workspace\\Pila\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\KEINN-ENNGEL\\workspace\\Pila\\src\u0027. Skipped."
+  },
+  "C:\\Users\\KEINN-ENNGEL\\workspace\\PilaRedimencionado\\src": {
+    "location": "C:\\Users\\KEINN-ENNGEL\\workspace\\PilaRedimencionado\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\KEINN-ENNGEL\\workspace\\PilaRedimencionado\\src\u0027. Skipped."
+  },
+  "C:\\Users\\KEINN-ENNGEL\\workspace\\RecursividadFactorial\\src": {
+    "location": "C:\\Users\\KEINN-ENNGEL\\workspace\\RecursividadFactorial\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\KEINN-ENNGEL\\workspace\\RecursividadFactorial\\src\u0027. Skipped."
+  },
+  "C:\\Users\\KEINN-ENNGEL\\workspace\\RecursividadNodo\\src": {
+    "location": "C:\\Users\\KEINN-ENNGEL\\workspace\\RecursividadNodo\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\KEINN-ENNGEL\\workspace\\RecursividadNodo\\src\u0027. Skipped."
+  },
+  "C:\\Users\\KEINN-ENNGEL\\workspace\\Ordenacion\\src": {
+    "location": "C:\\Users\\KEINN-ENNGEL\\workspace\\Ordenacion\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\KEINN-ENNGEL\\workspace\\Ordenacion\\src\u0027. Skipped."
+  },
+  "C:\\Users\\KEINN-ENNGEL\\workspace\\OrdearString\\src": {
+    "location": "C:\\Users\\KEINN-ENNGEL\\workspace\\OrdearString\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\KEINN-ENNGEL\\workspace\\OrdearString\\src\u0027. Skipped."
+  }
+}

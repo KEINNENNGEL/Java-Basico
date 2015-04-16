@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;lnhofgh&apos; to &apos;conteo&apos;&#x0D;&#x0A;- Original project: &apos;ConteoBilletes&apos;&#x0D;&#x0A;- Original element: &apos;lnhofgh&apos;&#x0D;&#x0A;- Renamed element: &apos;conteo&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;lnhofgh&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{lnhofgh.java[lnhofgh" matchStrategy="1" name="conteo" qualified="false" references="true" similarDeclarations="false" stamp="1346862363145" textual="false" version="1.0"/>
+</session>

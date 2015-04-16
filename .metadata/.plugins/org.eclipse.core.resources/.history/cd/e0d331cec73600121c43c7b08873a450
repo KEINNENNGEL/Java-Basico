@@ -1,0 +1,63 @@
+import java.util.Date;
+
+
+public class CuentaHabiente {
+
+    private int cuenta, index;
+    private String usuario,hora;
+    private double saldo;
+    private Date fecha;
+    // cosntrucctores
+    public CuentaHabiente() { }
+    public CuentaHabiente(int c, double s, String u, String h) {
+        setCuenta(c);
+        setSaldo(s);
+        setUsuario(u);
+        setFecha();
+        setHora(h);//HORA
+    }
+
+    // metodos para ingresar datos
+    void setCuenta(int c){ 
+    	cuenta = c; }
+    void setSaldo(double s){ 
+    	saldo = s; }
+    void setUsuario(String u){ 
+    	usuario = u; }
+    void setFecha(){ 
+    	fecha =new Date(); }
+    void setHora(String h){//HORA
+    	hora = h; }
+    void setIndex(int i){ 
+    	index = i; }
+    // metodos para obtener datos
+
+    int getCuenta(){ 
+    	return cuenta; }
+    double getSaldo(){ 
+    	return saldo; }
+    String getUsuario(){ 
+    	return usuario; }
+    Date getFecha(){ 
+    	return fecha; }
+    String getHora(){ //HORA
+    	return hora; }
+
+    int getIndex(){ 
+    	return index; }
+
+    // función que devuelve una cadena
+    String ConvierteString(){
+        String cadena = getCuenta() + ";" +
+        				getSaldo() + ";" +
+                        getUsuario() + ";" +
+                        getFecha().getDay() + "/" +
+                        (getFecha().getMonth()+1)+ "/" +
+                        (getFecha().getYear()+1900)+ " " +
+                        getFecha().getHours()+ ":" +
+                        getFecha().getMinutes()+ ":" +
+                        getFecha().getSeconds();
+                        
+        return cadena;
+    }
+}

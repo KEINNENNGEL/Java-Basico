@@ -1,0 +1,26 @@
+package TiposdeOrdenamientos;
+
+public class OrdSell {
+	
+	public int A[]={7,2,0,4,3,6};
+	
+	public void OrdShell(){
+		
+	int intervalo = A.length/2; /* distancia, los elementos estará ordenados a una distancia igual a intervalo.*/
+	while(intervalo > 0){//Se ordenan hasta que la distancia sea igual a1
+		for(int i = intervalo; i < A.length; i++){
+			int elem=A[i];
+			int j = i -intervalo; 
+			// Posiciondel elemento a comparar
+			while (( j > -1) && (elem<A[j])){
+				A[j+intervalo]=A[j];
+				j -= intervalo;
+				}
+			A[j+intervalo]=elem;
+			System.out.println("P"+elem);
+			}
+		intervalo = intervalo/2;
+		
+		}
+	}
+	}

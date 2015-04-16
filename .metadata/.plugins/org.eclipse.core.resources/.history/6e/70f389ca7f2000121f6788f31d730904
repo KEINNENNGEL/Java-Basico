@@ -1,0 +1,72 @@
+package OrdenaStringPipe;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+
+public class prueba {
+	char aux[];
+	String path;
+	char separador;
+	String arreglo[]={""};
+	ArrayList a= new ArrayList();
+	ArrayList listaLetras = null;
+	ArrayList listaNumeros = null;
+	
+	prueba(String str,char sep) {
+		 path=str;
+		 separador=sep;
+	}
+	 String Arreglo1(){
+		 int sep=path.indexOf(separador);
+		 path.substring(0,sep);
+		
+		 return path.substring(0,sep);
+	 }
+	 String Arreglo2(){
+		int sep=path.indexOf(separador);
+		return path.substring(sep+1,32);
+	}
+	 String Arreglo3(){
+		 int sep=path.indexOf(separador);
+		 return path.substring(((sep+1)+(sep+1)+1),56);
+	 }
+	 String Arreglo4() {
+	        int sep = path.lastIndexOf(separador);
+	        return path.substring(sep + 1);
+	    }
+	 public String separar(String a){//metodo separar que recibe un parametro de tipo cadena
+				int indice;
+				
+				char elementos[]=a.toCharArray();//declaramos un arreglo llamado elementos que convertira la cadena en char
+				for(indice=0;indice<a.length();indice++){//recorremos el arreglo
+					if(Character.isLetter(elementos[indice])){//comprobamos que la 
+						listaLetras.add(elementos[indice]);
+					}else{
+						elementos[indice]++;
+						//listaNumeros.add(elementos[indice]);//agregamos los numeros a lista
+					}
+				}
+				//ordenar(aux);
+			return a;
+		 }
+
+	 public int[] ordenar(int arreglo[]){
+		 int aux=0;
+		 for(int iterador=1;iterador < arreglo.length;iterador++){  
+	            for (int j=0 ; j < arreglo.length- 1; j++){  
+	                if (arreglo[j] > arreglo[j+1]){  
+	                    aux = arreglo[j];  
+	                    arreglo[j] = arreglo[j+1];  
+	                    arreglo[j+1] = aux;  
+	                }
+	            }
+	        }
+		 
+		 return arreglo;
+	 }
+	 public void imprimir(){
+		
+		
+		}
+}

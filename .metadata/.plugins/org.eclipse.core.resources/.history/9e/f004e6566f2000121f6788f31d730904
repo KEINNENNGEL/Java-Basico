@@ -1,0 +1,39 @@
+package OrdenaStringPipe;
+
+import java.util.Arrays;
+import java.util.Collections;
+
+public class prueba {
+	String path;
+	char separador;
+	
+	prueba(String str,char sep) {
+		 path=str;
+		 separador=sep;
+	}
+	 String Arreglo1(){
+		 int sep=path.indexOf(separador);
+		 return path.substring(0,sep);
+	 }
+	String Arreglo2(){
+		int coma=path.lastIndexOf('|');
+		return path.substring(coma);
+	}
+
+	 String Arreglo3(){
+		 int sep=path.indexOf(separador);
+		 return path.substring(sep,32);
+	 }
+	 String Arreglo4() {
+	        int sep = path.lastIndexOf(separador);
+	        return path.substring(sep + 1);
+	    }
+	    String path() {
+	        int sep = path.lastIndexOf(separador);
+	        return path.substring(0,0);
+	    }
+}
+
+
+//		0				1					2							3
+//1,2,10,6,1,7,22|45,5,3,4,7,1,0,9|22,56,93,11,9,21,105,10|90,3,2,21,7,2,8,0,-1,42

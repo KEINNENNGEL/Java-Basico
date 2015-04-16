@@ -1,0 +1,60 @@
+import java.net.*;
+import java.io.*;
+public class Servidor {
+	
+	ServerSocket server;
+	Socket socket;
+	int puerto=9000;
+	DataOutputStream salida;
+	BufferedReader entrada;
+	
+	public void iniciar(){
+		try{
+			server =new ServerSocket(puerto);
+			socket =new Socket();
+			socket = server.accept();
+			
+			entrada =new BufferedReader(new InputStreamReader(socket.getInputStream()));
+			String mensaje =entrada.readLine();
+			System.out.println(mensaje);
+			
+			salida =new DataOutputStream(socket.getOutputStream());
+			salida.writeUTF("adios mund");
+			
+			socket.close();
+			server.close();
+			
+		}catch(Exception e){
+			
+		};
+	}
+	public static int[] burbuja(int[]arreglo){  
+        int aux;
+        for(int iterador=1;iterador < arreglo.length;iterador++){  
+            for (int j=0 ; j < arreglo.length- 1; j++){  
+                if (arreglo[j] > arreglo[j+1]){  
+                    aux = arreglo[j];  
+                    arreglo[j] = arreglo[j+1];  
+                    arreglo[j+1] = aux;  
+                }
+            }
+        }
+        return arreglo;
+    }
+	public static int[] Insercion (int[] vector) { 
+		
+	      for (int i=1; i < vector.length; i++) {  
+	         int aux = vector[i];  
+	         int j;  
+	         for (j=i-1; j >=0 && vector[j] > aux; j--){  
+	              vector[j+1] = vector[j];  
+	          }  
+	         vector[j+1] = aux;  
+	      }
+	      return vector;
+	   }
+	public static void main(String []args){
+		Servidor o=new Servidor();
+		o.iniciar();
+	}
+}

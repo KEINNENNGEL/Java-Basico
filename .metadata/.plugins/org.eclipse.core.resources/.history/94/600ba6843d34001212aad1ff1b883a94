@@ -1,0 +1,40 @@
+	import java.io.*;
+public class Prueba1 {
+	 
+
+
+	    public static void main(String[] args) throws IOException  { 
+
+		String s;
+		int lineas = 1;
+
+		try { 
+		    System.out.print("Que archivo desea analizar ? ");
+		    BufferedReader stdin = new BufferedReader( 
+	                             new InputStreamReader(System.in));
+		    String archivo = stdin.readLine();
+		    BufferedReader sarchivo = new BufferedReader(
+	                             new FileReader(archivo));
+		    while (( s = sarchivo.readLine()) != null)
+			lineas++;
+		    System.out.println("El archivo " + archivo + 
+	                             " contiene " + lineas + " renglones de Codigo.");
+
+	        } catch (IOException exc) { 
+
+		    System.err.println(exc);
+		    System.out.println("Asegurese de haber proporcionado " +
+	                               " la extension del archivo (\".java\")");
+
+		} finally { 
+
+		    System.out.println("");
+		    System.out.println("Es la mejor manera de aprender Streams, practicando!");
+		} 
+		    
+	    }
+	}
+
+
+
+

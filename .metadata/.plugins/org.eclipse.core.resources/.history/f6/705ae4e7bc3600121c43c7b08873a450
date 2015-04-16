@@ -1,0 +1,56 @@
+
+public class CuentaHabiente {
+
+    private int cuenta, index;
+    private String nombre, direccion, telefono;
+    private double saldo;
+
+    // cosntrucctores
+    public CuentaHabiente() { }
+    public CuentaHabiente(int c, String n, String d, String t, double s) {
+        setCuenta(c);
+        setSaldo(s);
+        setNombre(n);
+        setDireccion(d);
+        setTelefono(t);//HORA
+    }
+
+    // metodos para ingresar datos
+    void setCuenta(int c){ 
+    	cuenta = c; }
+    void setSaldo(double s){ 
+    	saldo = s; }
+    void setNombre(String n){ 
+    	nombre = n; }
+    void setDireccion(String d){ 
+    	direccion = d; }
+    void setTelefono(String t){//HORA
+    	telefono = t; }
+    void setIndex(int i){ 
+    	index = i; }
+    // metodos para obtener datos
+
+    int getCuenta(){ 
+    	return cuenta; }
+    double getSaldo(){ 
+    	return saldo; }
+    String getNombre(){ 
+    	return nombre; }
+    String getDireccion(){ 
+    	return direccion; }
+    String getTelefono(){ //HORA
+    	return telefono; }
+
+    int getIndex(){ 
+    	return index; }
+
+    // función que devuelve una cadena
+    String ConvierteString(){
+        String cadena = getCuenta() + ";" +
+                        getNombre() + ";" +
+                        getDireccion() + ";" +
+                        getTelefono() + ";" +
+                        getSaldo();
+        return cadena;
+    }
+}

@@ -1,0 +1,36 @@
+package OrdenaStringPipe;
+
+import java.util.ArrayList;
+
+public class OrdenaStringPipe {
+	
+	ArrayList listaLetras = new ArrayList();
+	ArrayList listaNumeros = new ArrayList();
+	int indice;
+	int arreglo[];
+	public String[] OrdenaSPipe(String[]cadena){
+		
+		return cadena;
+	}
+	
+	public String[] separar(String cadena[]){
+		
+		char elementos[]=/*cadena.length*/;
+		
+		for(indice=0;indice<cadena.length;indice++){
+			if(Character.isLetter(elementos[indice])){
+				//return "";
+			}else{
+				
+				listaNumeros.add(elementos[indice]);
+			}
+			if(Character.isJavaIdentifierPart('|')){
+				listaLetras.add(elementos[indice]);
+				System.out.println("lista"+listaLetras);
+			}
+		}
+		//return listaNumeros.toString();
+	}
+	
+}
+

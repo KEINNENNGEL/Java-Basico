@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;Separador.Separador.java&apos; to &apos;Examen1.java&apos;&#x0D;&#x0A;- Original project: &apos;Examen1&apos;&#x0D;&#x0A;- Original element: &apos;Separador.Separador.java&apos;&#x0D;&#x0A;- Renamed element: &apos;Separador.Examen1.java&apos;" description="Rename compilation unit &apos;Separador.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;Separador{Separador.java" name="Examen1.java" references="false" stamp="1349472514882" version="1.0"/>
+</session>

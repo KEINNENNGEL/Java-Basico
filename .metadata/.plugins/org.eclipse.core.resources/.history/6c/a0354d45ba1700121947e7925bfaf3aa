@@ -1,0 +1,31 @@
+package Recursividad;
+
+public class ArregloRec {
+	
+	public void imprimirArreglo(String arreglo[]/*,int i*/){
+		int iterador=0;
+		if(iterador>=arreglo.length){
+			return ;
+		}else{
+		for(iterador=0;iterador<arreglo.length;++iterador){
+		//if(iterador<=arreglo.length){
+			System.out.println(iterador+"---"+arreglo[iterador]);
+			imprimirArreglo(arreglo);
+		}
+		}
+		//if(i>=arreglo.length){
+			//return ;
+		//}else{
+			//System.out.println(i+"---"+arreglo[i]);
+			//imprimirArreglo(arreglo,++i);
+		//}
+}
+	
+	public static void main(String[]args){
+		ArregloRec datos=new ArregloRec();
+		String arreglo[]={"Miguel","Angel","otro","jejejejej"};
+		datos.imprimirArreglo(arreglo);
+		
+	}
+
+}

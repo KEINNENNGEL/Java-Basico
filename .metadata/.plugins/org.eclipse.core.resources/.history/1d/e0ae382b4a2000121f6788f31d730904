@@ -1,0 +1,33 @@
+package OrdenaStringPipe;
+
+import java.util.Arrays;
+import java.util.Collections;
+
+public class prueba {
+	private static final int[][] Object = null;
+	String arreglo[]={"1,2,10,6,1,7,22|45,5,3,4,7,1,0,9|22,56,93,11,9,21,105,10|90,3,2,21,7,2,8,0,-1,42"};
+	
+	public void ordenar(){
+		Arrays.sort(arreglo);
+		System.out.println("Ordenacion");
+		for(String str:arreglo){
+			System.out.println(str);
+		}
+		//Ordacion descendente
+		Arrays.sort(arreglo, Collections.reverseOrder());
+		System.out.println("****** Ordenando String Array *******");
+		for (String str : arreglo) {
+		System.out.println(str);
+		}
+		
+		int startIndex=0;
+		char endIndex='|';
+		Arrays.sort(Object,startIndex,endIndex);
+		Arrays.sort(arreglo, startIndex, endIndex);
+		System.out.println("****** Ordenando String Array *******");
+		for (String str : arreglo) {
+		System.out.println(str);
+		}
+	}
+
+}

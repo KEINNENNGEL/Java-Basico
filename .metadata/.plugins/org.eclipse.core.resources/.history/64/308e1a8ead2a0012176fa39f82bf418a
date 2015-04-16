@@ -1,0 +1,100 @@
+
+public class Main {
+	public static void main(String[]args){
+		InventarioCDs o=new InventarioCDs();
+		Disco d1=new Disco("Rosenrot", "Rammstein", 2001, 8);
+		Disco d2=new Disco("Awakened", "As I Lay Dying", 2012, 10);
+		Disco d3=new Disco("This Is War", "30 Seconds To Mars", 2009, 8);
+		Disco d4=new Disco("Nightmare", "Avenged Sevenfold", 2010, 8);
+		Disco d5=new Disco("Living Things", "Linkin Park", 2012, 10);
+		Disco d6=new Disco("Minutes To Midnight", "Linkin Park", 2007, 8);
+		Disco d7=new Disco("The Path Of Totality", "Korn", 2012, 8);
+		Disco d8=new Disco("Diamonds In The Rough", "Avenged Sevenfold", 2008, 8);
+		Disco d9=new Disco("1614", "Opera Diabolicus", 2012, 8);
+		Disco d10=new Disco("Nightwish", "Oceanborn", 1998, 8);
+		Disco d11=new Disco("A Thousand Suns", "Linkin Park", 2010, 8);
+		Disco d12=new Disco("Desconocido", "Zombie Kids", 2010, 8);
+		Disco d13=new Disco("Broken In Pieces", "Stutterfly", 2002, 8);
+		Disco d14=new Disco("City of Evil", "Avenged Sevenfold", 2005, 8);
+		Disco d15=new Disco("Untouchables", "Korn", 2002, 8);
+		Disco d16=new Disco("A Rush Of Blood To The Head", "Coldplay", 2003, 8);
+		Disco d17=new Disco("Viva La Vida", "Coldplay", 2008, 8);
+		Disco d18=new Disco("X&Y", "Coldplay", 2005, 8);
+		Disco d19=new Disco("Parachutes", "Coldplay", 2000, 8);
+		Disco d20=new Disco("Mylo Xyloto", "Coldplay", 2011, 8);
+		//
+		Disco d21=new Disco("The Connection", "Papa Roach", 2012, 8);//prueba
+		//
+		o.agregarCd(d1);
+		o.agregarCd(d2);
+		o.agregarCd(d3);
+		o.agregarCd(d4);
+		o.agregarCd(d5);
+		o.agregarCd(d6);
+		o.agregarCd(d7);
+		o.agregarCd(d8);
+		o.agregarCd(d9);
+		o.agregarCd(d10);
+		o.agregarCd(d11);
+		o.agregarCd(d12);
+		o.agregarCd(d13);
+		o.agregarCd(d14);
+		o.agregarCd(d15);
+		o.agregarCd(d16);
+		o.agregarCd(d17);
+		o.agregarCd(d18);
+		o.agregarCd(d19);
+		o.agregarCd(d20);
+		//
+		o.agregarCd(d21);//para verificar que solo acepte 20 cds y que al agregar este me 
+						//me mande un mensaje de lleno
+		//
+		o.verCds();
+		//
+		Canciones x=new Canciones("Rosenrot", "3:55");
+		Canciones x1=new Canciones("Defender", "4:05");
+		Canciones x2=new Canciones("From Yesterday", "4:03");
+		Canciones x3=new Canciones("Nightmare", "6:16");
+		Canciones x4=new Canciones("Burn It Down", "3:50");
+		Canciones x5=new Canciones("No More Sorrow", "3:34");
+		Canciones x6=new Canciones("My Wall", "3:31");
+		Canciones x7=new Canciones("The Gates", "6:00");
+		Canciones x8=new Canciones("The Phantom Of The Opera", "4:08");
+		Canciones x9=new Canciones("A Thousand Suns", "3:52");
+		Canciones x10=new Canciones("Every Teardrop Is a Waterfall", "4:01");
+		Canciones x11=new Canciones("Parachutes", "0:47");
+		Canciones x12=new Canciones("Fix You", "5:11");
+		Canciones x13=new Canciones("Viva La Vida", "4:05");
+		Canciones x14=new Canciones("A Rush Of Blood To The Head", "5:08");
+		Canciones x15=new Canciones("Thoughtless", "4:35");
+		Canciones x16=new Canciones("Seize the Day", "5:33");
+		Canciones x17=new Canciones("Hollow", "4:23");
+		Canciones x18=new Canciones("Until The End", "4:45");
+		Canciones x19=new Canciones("Desconocido", "3:18");
+		Canciones x20=new Canciones("Spring", "5:25");
+		System.out.println("\n");
+		System.out.println("Nombre de Disco Buscado");
+		o.BuscarCd("Rosenrot");
+		System.out.println("\n");
+		System.out.println("Buscar Discos de un Artista");
+		o.BuscarArtista("Coldplay");
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Miguel Angel Fuentes Ramirez*/

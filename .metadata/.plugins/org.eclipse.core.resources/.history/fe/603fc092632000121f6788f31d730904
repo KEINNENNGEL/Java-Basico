@@ -1,0 +1,62 @@
+package OrdenaStringPipe;
+
+import java.util.Arrays;
+import java.util.Collections;
+
+public class prueba {
+	String path;
+	char separador;
+	
+	prueba(String str,char sep) {
+		 path=str;
+		 separador=sep;
+	}
+	//String extencion(){
+		//int coma=path.lastIndexOf(',');
+		//return path.substring(coma+1);
+	//}
+	 String NombreFichero() {
+	        //int coma = path.lastIndexOf(',');
+	        int sep = path.lastIndexOf(separador);
+	        return path.substring(sep + 1);
+	    }
+
+	    String path() {
+	        int sep = path.lastIndexOf(separador);
+	        return path.substring(0, sep);
+	    }
+	public void ordenar(){
+		//Arrays.sort(arreglo);
+		//System.out.println("Ordenacion");
+		//for(String str:arreglo){
+			//System.out.println(str);
+		//}
+		//Ordacion descendente
+		//Arrays.sort(arreglo, Collections.reverseOrder());
+		//System.out.println("****** Ordenando String Array *******");
+		//for (String str : arreglo) {
+		//System.out.println(str);
+		//}
+		
+		//int startIndex=0;
+		//char endIndex='|';
+		//Arrays.sort(Object[],int startIndex,char endIndex);
+		//Arrays.sort(arreglo,0, 70);
+		//System.out.println("****** Ordenando String Array *******");
+		//for (String str : arreglo) {
+		//System.out.println(str);
+		//}
+	}
+
+	    public  String reverseIt(String arreglo) {
+	    	char elementos[]=arreglo.toCharArray();
+	        int i, len = arreglo.length();
+	        StringBuffer dest = new StringBuffer(len);
+
+	        for (i = (len - 1); i >= 0; i--) {
+	            dest.append(arreglo.charAt(i));
+	        }
+	        return dest.toString();
+	    }
+	
+}

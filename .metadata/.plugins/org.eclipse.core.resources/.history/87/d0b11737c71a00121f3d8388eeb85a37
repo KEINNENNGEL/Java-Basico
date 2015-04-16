@@ -1,0 +1,35 @@
+package TiposdeOrdenamientos;
+
+public class OrdBurbuja {
+	
+	public int A[]={7,2,0,4,3,6};
+
+	public void OrdBurbujaa(){
+		for(int pasada=0; pasada < A.length-1; pasada++)
+			for (int j=0; j < (A.length-pasada-1); j++)
+				if(A[j] > A[j+1])
+					intercambiar(j,j+1);
+		}
+	
+	private void intercambiar(int j, int i) {
+		// TODO Auto-generated method stub
+		
+		
+	}
+
+	public void OrdBurbuja2(){
+		boolean noOrdenados= true;
+		
+	int pasada = 0;
+	while((noOrdenados) && (pasada < A.length-1)){
+		noOrdenados= false;
+		for (int j=0; j < (A.length-pasada-1); j++)
+			if (A[j] > A[j+1])
+			{ 
+				intercambiar(j,j+1);
+				noOrdenados= true;
+	}
+	pasada ++;
+	}
+}
+}

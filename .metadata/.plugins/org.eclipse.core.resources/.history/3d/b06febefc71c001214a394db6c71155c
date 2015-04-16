@@ -1,0 +1,33 @@
+package TiposdeOrdenamientos;
+
+public class OrdenacionXInsercion {
+	
+	public static int[] Insercion (int[] vector) { 
+		
+	      for (int i=1; i < vector.length; i++) {  
+	         int aux = vector[i];  
+	         int j;  
+	         for (j=i-1; j >=0 && vector[j] > aux; j--){  
+	              vector[j+1] = vector[j];  
+	          }  
+	         vector[j+1] = aux;  
+	         //System.out.println(aux);
+	      }
+	      return vector;
+	   }
+	
+	public int Insercion2(int matrix[]){///////////////////////////////////7
+		int i, temp=0, j;
+		
+		for (i = 1; i < matrix.length; i++){
+			temp = matrix[i];
+			j = i - 1;
+			while ( (matrix[j] > temp) && (j >= 0) ){
+				matrix[j + 1] = matrix[j];
+				j--;
+				}
+			matrix[j + 1] = temp;
+			}
+		return temp;
+		}
+	}

@@ -1,0 +1,10 @@
+
+public class ejercicio05 {
+	public static void main(String[]args){
+		int c;
+		for(c=1;c<=100;c++){
+			int a=8*c;
+			System.out.println("Tabla de multiplicar del 8:"+a);
+		}
+	}
+}

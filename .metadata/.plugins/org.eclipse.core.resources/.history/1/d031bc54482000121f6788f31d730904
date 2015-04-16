@@ -1,0 +1,23 @@
+package OrdenaStringPipe;
+
+import java.util.Arrays;
+import java.util.Collections;
+
+public class prueba {
+	String arreglo[]={"ab", "aB", "c", "0", "2", "1Ad", "a10"};
+	
+	public void ordenar(){
+		Arrays.sort(arreglo);
+		System.out.println("Ordenacion");
+		for(String str:arreglo){
+			System.out.println(str);
+		}
+		//Ordacion descendente
+		Arrays.sort(arreglo, Collections.reverseOrder());
+		System.out.println("****** Ordenando String Array *******");
+		for (String str : arreglo) {
+		System.out.println(str);
+		}
+	}
+
+}

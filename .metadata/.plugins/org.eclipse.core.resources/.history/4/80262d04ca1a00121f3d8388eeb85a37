@@ -1,0 +1,21 @@
+package TiposdeOrdenamientos;
+
+public class Main {
+	
+	public static void main(String[]args){
+		OrdenacionXInsercion insercion=new OrdenacionXInsercion();
+		insercion.OrdInsercion();
+		
+		OrdSell sell=new OrdSell();
+		sell.OrdShell0();
+		
+		OrdBurbuja bur=new OrdBurbuja();
+		bur.OrdBurbujaa();
+		bur.OrdBurbuja2();
+		
+		OrdSeleccion sel=new OrdSeleccion();
+		sel.OrdSeleccionn();
+		
+	}
+
+}

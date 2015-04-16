@@ -1,0 +1,21 @@
+package TiposdeOrdenamientos;
+
+public class OrdenacionXInsercion {
+	
+	public int A[]={7,2,0,4,3,6};
+	
+	public void OrdInsercion(){
+		for (int i=1; i < A.length; i++){// Suponeel primer elementoordenado
+			int elem= A[i];// Elementoa ordenar
+			int j = (i-1);// Posicióna comparar 
+			/*Si el elemento a comparar es mayor que el elemento a ordenar entones desplazo el elemento a comparar una posición a la 
+			 * derecha para insertar el elemento a ordenar en la posición correcta*/
+			while ((j >= 0) && (elem< A[j]))
+				A[j+1] = A[j--]; /*Desplazo el elemento una posición a la derecha y disminuyo en una unidad la Posición a comparar*/ 
+			// Se inserta el elemento a ordenar en su posición correcta
+			A[j+1] = elem;
+			System.out.println(""+elem);
+			}
+		
+		}
+	}

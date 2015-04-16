@@ -1,0 +1,9 @@
+
+public class Main {
+	public static void main( String args[] ){
+		CrearArchivoTexto aplicacion = new CrearArchivoTexto();
+		aplicacion.abrirArchivo();
+		aplicacion.agregarRegistros();
+		aplicacion.cerrarArchivo();
+} // ﬁn de main 
+}

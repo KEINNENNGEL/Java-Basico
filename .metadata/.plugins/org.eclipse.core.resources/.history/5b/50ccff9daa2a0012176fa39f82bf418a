@@ -1,0 +1,112 @@
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class InventarioCDs {
+	final int CAPACIDAD_CDS =20;
+	private List<Disco> cds;
+	
+	public InventarioCDs(){
+		cds=new ArrayList<Disco>(CAPACIDAD_CDS);
+		for(int i=0;i<CAPACIDAD_CDS;i++){
+			cds.add(null);
+		}
+	}
+	public void agregarCd(Disco cd){
+		int i=0;
+		for(Disco d:cds){
+			if(d==null){
+				cds.remove(i);
+				cds.add(i, cd);
+				return ;
+			}i++;
+		}System.out.println("Usted Intento Agregar Otro Disco");
+		System.out.println("Estanteria Llena");
+		System.out.println("\n");
+	}
+	public void sacarCd(String nombre){
+		int i=0;
+		for(Disco d:cds){
+			if(d.getTitulo().equals(nombre)){
+				cds.remove(i);
+				cds.add(i, null);
+				break;
+			}i++;
+		}
+	}
+	public void verCds(){
+		for(Disco cd:cds){
+			System.out.println(cd);
+		
+	}
+	}
+	public void BuscarCd(String nombre){
+		int i=0;
+		for(Disco d:cds){
+			if(d.getTitulo().equals(nombre)){
+				
+				System.out.println(d.getTitulo());
+			}i++;
+		}
+	}
+	public void BuscarArtista(String artista){
+		int i=0;
+		for(Disco d:cds){
+			if(d.getTitulo().equals(artista)){
+				
+				System.out.println(d.getTitulo()+d.getArtistaGrupo());
+			}i++;
+		}
+	}
+}
+class Disco{
+	public String titulo;
+	public String artistaGrupo;
+	public int anio;
+	public int numeroCanciones=10;
+	
+	public Disco(String titulo,String artistaGrupo,int anio,int numeroCanciones){
+		this.titulo=titulo;
+		this.artistaGrupo=artistaGrupo;
+		this.anio=anio;
+		this.numeroCanciones=numeroCanciones;
+	}
+	public String getTitulo(){
+		return titulo;
+	}
+	public String getArtistaGrupo(){
+		return artistaGrupo;
+	}
+	public int getAnio(){
+		return anio;
+	}
+	public int getNumeroCanciones(){
+		return numeroCanciones;
+	}
+	public String toString(){
+		String detalle="";
+		detalle=detalle+"Titulo: "+this.titulo;
+		detalle=detalle+" Artista: "+this.artistaGrupo;
+		detalle=detalle+" Año: "+this.anio;
+		detalle=detalle+" Numero de Canciones: "+this.numeroCanciones;
+		return detalle;
+	}
+}
+class Canciones{
+	public String titulo;
+	public String duracion;
+	
+	public Canciones(String titulo,String duracion){
+		this.titulo=titulo;
+		this.duracion=duracion;
+	}
+	public String getTitulo(){
+		return titulo;
+	}
+	public String getDuracion(){
+		return duracion;
+	}
+}
+class Artistas(){
+	
+}

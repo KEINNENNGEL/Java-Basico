@@ -1,0 +1,50 @@
+
+
+public class Menu {
+	public static void main(String[]args){
+		//CapturaTeclado
+		//Opcion----
+		IO_Archivo io=new IO_Archivo();
+		io.EscribirCH("clientes.txt", "123456",1);
+		CuentaHabiente h=new CuentaHabiente();
+		
+		//h.setCuenta(123456789);
+		h.setSaldo(100.8);
+		h.setUsuario("angelitomm07");
+		h.setFecha("24-11-2012");
+		h.setHora("11:18");
+		CapturaTeclado ct = new CapturaTeclado();
+        Opcion opc = new Opcion();
+		int i;
+			do {
+	            System.out.println("+---------------------------------------+");
+	            System.out.println("|		CUENTA DE AHORRO	|");
+	            System.out.println("+---------------------------------------+");
+	            System.out.println("|1. Cargar Ahorro			|");
+	            System.out.println("|2. Debitar.-Ver Ahorro			|");
+	            System.out.println("|3. Bitacora.				|");
+	            System.out.println("|0. Salir.				|");
+	            System.out.println("+---------------------------------------+");
+	            i = ct.CapturaInt();
+	            switch(i){
+	                case 0:
+	                    System.out.println("Gracias por usar este servicio...");
+	                    break;
+	                case 1:
+	                    opc.Depositar();
+	                    break;
+	                case 2:
+	                    opc.Debitar();
+	                    break;
+	                case 3:
+	                    opc.MostrarBitacora();
+	                    break;
+	                default:
+	                    System.out.println("Ingresa una opción válida!!!");
+	                    break;
+	            }
+	        } while (i != 0);
+		
+	}
+
+}

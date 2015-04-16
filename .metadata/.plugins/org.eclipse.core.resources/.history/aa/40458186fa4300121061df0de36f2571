@@ -1,0 +1,12 @@
+
+public class ejercicio03 {
+	public static void main(String[]args){
+		int a=0;
+		for(int c=2;c<=40;c++){
+			int aux=c+1;
+			a=a+aux;
+			System.out.println("Suma de los 20 primeros pares: "+a);
+		}
+	}
+
+}

@@ -1,0 +1,22 @@
+package TiposdeOrdenamientos;
+
+public class OrdSeleccion {
+	
+	public int A[]={7,2,0,4,3,6};
+	
+	public void OrdSeleccionn(){//Para todos los elementos desde el primero hasta el penultimo
+		for (int i=0; i < (A.length-1); i++){
+			int menor= i;/*Se localiza el elemento menor desde la posición desde la cual se estáordenando hasta el último elemento*/
+			for (int j=(i+1);j < A.length; j++)
+				if(A[j] < A[menor]) menor = j;/*Si el elemento a ordenar es distinto del de la posición que se estáordenando se intercambian los elementos*/
+			if (menor!= i)
+				intercambiar(i,menor);//intercambia los elementos de esas posiciones
+			System.out.println("P"+intercambiar(0, 0));
+			}
+		}
+
+	private void intercambiar(int i, int menor) {
+		// TODO Auto-generated method stub
+		
+	}
+	}

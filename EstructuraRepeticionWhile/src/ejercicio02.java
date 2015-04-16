@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+
+public class ejercicio02 {
+	public static void main(String[]args){
+		Scanner leerDato=new Scanner(System.in);
+		int n;
+		System.out.println("introduce el valor de n");
+		n=leerDato.nextInt();
+		while(n>=1){
+			System.out.println("numeros del n al 1: "+n);
+			n--;
+		}
+		
+	}
+
+}

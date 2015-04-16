@@ -1,0 +1,79 @@
+package OrdenaStringPipe;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+
+public class prueba {
+	char aux[];
+	String path;
+	char separador;
+	String arreglo[]={""};
+	ArrayList x= new ArrayList();
+	ArrayList listaLetras = new ArrayList();
+	ArrayList listaNumeros = new ArrayList();
+	
+	prueba(String str,char sep) {
+		 path=str;
+		 separador=sep;
+	}
+	 String Arreglo1(){
+		 int sep=path.indexOf(separador);
+		 path.substring(0,sep);
+		
+		 return path.substring(0,sep);
+	 }
+	 String Arreglo2(){
+		int sep=path.indexOf(separador);
+		return path.substring(sep+1,32);
+	}
+	 String Arreglo3(){
+		 int sep=path.indexOf(separador);
+		 return path.substring(((sep+1)+(sep+1)+1),56);
+	 }
+	 String Arreglo4() {
+	        int sep = path.lastIndexOf(separador);
+	        return path.substring(sep + 1);
+	    }
+	 public String separar(String a){//metodo separar que recibe un parametro de tipo cadena
+				int indice;
+				
+				char elementos[]=a.toCharArray();//declaramos un arreglo llamado elementos que convertira la cadena en char
+				for(indice=0;indice<a.length();indice++){//recorremos el arreglo
+					if(Character.isLetter(elementos[indice])){//comprobamos que la 
+						listaLetras.add(elementos[indice]);
+					}else{
+						//elementos[indice]++;
+						listaNumeros.add(elementos[indice]++);
+					}
+					
+				}
+
+			return a;
+		 }
+
+	 public void ordenar(){
+		 //Collections.sort(x);
+		 for(int i=0;i<x.size();i++){
+			// System.out.println(x.indexOf(10)); 
+		 }
+		// System.out.println(listaLetras);//imprimimos las letras 
+		 System.out.println(listaNumeros);//imprimimos los numeros
+	 }
+	 public void ordenaCadenas(String v[]){
+		 int posMin;
+		 String aux;
+
+		 for(int i=0;i<arreglo.length-1;i++){
+			 posMin=i;
+			 for(int j=i+1;j<arreglo.length;j++)
+				 if(arreglo[posMin].compareTo(arreglo[j])>0) 
+					 posMin=j;
+			 		if(posMin!=i){
+			 			aux=new String(v[i]);
+			 			v[i]=v[posMin];
+			 			v[posMin]=aux; 
+			 			}
+			 		}
+		 }
+}

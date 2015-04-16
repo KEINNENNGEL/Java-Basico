@@ -1,0 +1,10 @@
+
+public class PruebaCrearArchivo {
+	public static void main( String args[] ){
+		CrearArchivoTexto aplicacion = new CrearArchivoTexto();
+		LeerDatosUsuario o=new LeerDatosUsuario();
+		o.abrirArchivo();
+		o.LeerRegistro();
+		o.cerrarArchivo();
+} 
+}

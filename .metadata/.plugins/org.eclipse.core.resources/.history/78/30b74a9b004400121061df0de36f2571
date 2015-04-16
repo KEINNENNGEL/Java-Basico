@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+
+public class ejercicio03 {
+	public static void main(String[]args){
+		Scanner leerDato=new Scanner(System.in);
+		int c=1;
+		int a=0;
+		int b=0;
+		int n=0;
+		System.out.println("Introduce el valor de n:");
+		n=leerDato.nextInt();
+		while(c<=n){
+			double d=c%2;
+			if(d==0){
+				b=b+c;
+			}else{
+				a=a+c;
+			}
+			c++;
+
+		}
+		System.out.println("suma de los numeros pares de B: "+b);
+		System.out.println("suma de los numeros impares de A: "+a);
+	}
+
+}

@@ -1,0 +1,11 @@
+package TiposdeOrdenamientos;
+
+public class Main {
+	
+	public static void main(String[]args){
+		OrdenacionXInsercion insercion=new OrdenacionXInsercion();
+		insercion.OrdInsercion();
+		
+	}
+
+}

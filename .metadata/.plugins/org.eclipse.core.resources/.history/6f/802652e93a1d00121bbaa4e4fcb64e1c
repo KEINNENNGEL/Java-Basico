@@ -1,0 +1,10 @@
+package OrdenaStringPipe;
+
+public class OrdenaStringPipe {
+	
+	public String[] OrdenaSPipe(String[]cadena){
+		
+		return cadena;
+	}
+
+}
